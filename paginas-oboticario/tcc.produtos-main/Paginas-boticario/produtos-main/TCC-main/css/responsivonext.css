@@ -1,0 +1,54 @@
+@media screen and (min-width: 320px) and (max-width: 428px){
+  
+    .menu{
+          display: none !important;
+        
+      }
+      .menus
+      {
+          justify-content: center;
+      }
+  }
+  
+  
+                      /*responsivo para ipad mini*/
+  
+  @media screen and (min-width: 767px) and (max-width: 1200px) {
+     .card{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      min-height: 700px;
+      
+     }
+     .botaoLink a button{
+      width: 30%;
+      height: 50px;
+    }
+     .grid{
+      grid-template-columns: (4, 1fr);
+          justify-items: center;
+      }
+    }
+  
+  
+     @media screen and (min-width: 320px) and (max-width: 667px) {
+  
+      .grid {
+        grid-template-columns: 2fr ;
+        justify-items: center;
+      }
+  
+      .botaoLink a button{
+        width: 30%;
+        height: 50px;
+      }
+      .card{
+        display: flex;
+        flex-direction: column;
+        min-height: 650px;
+      }
+  
+    }
+  
+  
